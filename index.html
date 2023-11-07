@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" > 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" > </script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
     <title>projeto de som</title>
 </head>
-<body>
+<body id="body_1">
     <div class="col-xs-12 text-center header_div">
-        <h2>sons controlados por animais</h2>
-        <p>nota:reproduza diferentes sons, como latido, miado, cantar de passaro</p>
+        <h1 id="h1">sons controlados por animais</h1>
+        <p id="p">nota:reproduza diferentes sons, como latido, miado, cantar de passaro</p>
     </div>
     <div class="col-xs-12 main_div">
         <center>
-            <button class="btn btn-danger" onclick="iniciar()">iniciar</button>
+            <button class="btn btn-danger" onclick="iniciar()" id="button_start">iniciar</button>
             <br>
             <h3 id="result_label">Posso ouvir - </h3>
             <h3 id="result_confidence">Precisão - </h3>
